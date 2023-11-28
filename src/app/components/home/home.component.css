@@ -1,0 +1,194 @@
+* {
+    direction: rtl;
+}
+
+.firstContainer {
+    max-width: 1270px;
+    max-height: 34px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 33px;
+    margin-right: 137px;
+}
+
+.rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    border: 0px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.arrow-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: #E7EAED;
+
+}
+
+.myIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.912px;
+    height: 12.912px;
+    flex-shrink: 0;
+    color: #292D32;
+}
+
+.rightDiv-desc {
+    color: #1C1C28;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 7px;
+}
+
+/* /**************************************** */
+/* /**************************************** */
+/* /**************************************** */
+.second {
+    display: flex;
+    margin-top: 13px;
+    margin-left: 33px;
+    margin-right: 137px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn {
+    width: 78px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #E9EAEA;
+    background: #F9F9F9;
+}
+
+.edit-btn span {
+    margin-right: 8px;
+    color: #1C1C28;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.stats {
+    max-width: 839px;
+    max-height: 264px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.807px solid #EBEBEB;
+    background: #FFF;
+    margin-left: 24px;
+}
+
+.mystats-desc {
+    display: flex;
+    flex-direction: column;
+    width: 243px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-top: 19px;
+    margin-right: 22px;
+}
+
+.mystats-desc .my-title {
+    color: #1C1C28;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.904px;
+}
+
+.mystats-desc .myDate {
+    color: var(--font-style-light);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12.904px;
+    margin-top: 10px;
+    margin-bottom: 31.6px;
+}
+
+.mystats-desc .myDate .july {
+    font-weight: 400;
+    font-family: 'Neo Sans Arabic';
+}
+
+.my-date-icons svg {
+    stroke-width: 1.21px;
+    stroke: #92A1AD;
+    flex-shrink: 0;
+}
+
+.Annually {
+    margin-top: 22px;
+    margin-left: 22.39px;
+}
+
+.Annually .bttn {
+    width: 67.371px;
+    height: 30.279px;
+    flex-shrink: 0;
+    background-color: #FAFAFA;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+
+.Annually span {
+    color: #1C1C28;
+    font-size: 12.112px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.Annually svg {
+    width: 9.82px;
+    height: 9.227px;
+    flex-shrink: 0;
+    margin-right:3px ;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+
+.tickets {
+    max-width: 408px;
+    max-height: 264px;
+    flex-shrink: 0;
+    border-radius: 12.474px;
+    background: #8A74F9;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* **************************************** */

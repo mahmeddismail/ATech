@@ -1,0 +1,108 @@
+
+
+.firstContainer {
+    max-width: 1270px;
+    max-height: 34px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 33px;
+    margin-left: 137px;
+}
+
+.rightDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    border: 0px solid transparent;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+
+.arrow-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: #E7EAED;
+
+}
+
+.myIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.912px;
+    height: 12.912px;
+    flex-shrink: 0;
+    color: #292D32;
+}
+
+.rightDiv-desc {
+    color: #1C1C28;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 7px;
+}
+
+/* /**************************************** */
+.second {
+    display: flex;
+    margin-top: 13px;
+    margin-right: 33px;
+    margin-left: 137px;
+}
+
+.edit-btn {
+    width: 78px;
+    height: 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #E9EAEA;
+    background: #F9F9F9;
+}
+
+.edit-btn span {
+    color: #1C1C28;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 8px;
+}
+
+
+.stats {
+    max-width: 839px;
+    max-height: 264px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0.807px solid #EBEBEB;
+    background: #FFF;
+    margin-right: 24px;
+}
+
+.tickets {
+    max-width: 408px;
+    max-height: 264px;
+    flex-shrink: 0;
+    border-radius: 12.474px;
+    background: #3DD598;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
