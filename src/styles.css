@@ -12,8 +12,9 @@ body {
     /* font-family: 'Playpen Sans', cursive; */
     font-family: 'Neo Sans Arabic';
     width: 1440px;
-    height: 820px;
-/* overflow-x: hidden; */
+    /* height: 820px; */
+    background: #F3F5F7;
+        overflow-x: hidden;
 }
 :root {
     --font-style-light: #99A1B7;
